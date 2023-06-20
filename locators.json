@@ -1,0 +1,100 @@
+{
+    "BodyPreview": {
+        "screenshot": ".images\\bodypreview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//img[@alt='Body']"
+    },
+    "Head Box": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "head"
+    },
+    "HeadPreview": {
+        "screenshot": ".images\\headpreview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//img[@alt='Head']"
+    },
+    "Idbody": {
+        "screenshot": ".images\\idbody-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "id-body-1"
+    },
+    "Legs Input": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//label[contains(.,'3. Legs:')]/../input"
+    },
+    "LegsPreview": {
+        "screenshot": ".images\\legspreview-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//img[@alt='Legs']"
+    },
+    "Model Info Table": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "css",
+        "type": "browser",
+        "value": ".col-sm-5 > .form-group"
+    },
+    "OK Button": {
+        "screenshot": ".images\\ok-button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//*[contains(text(), \"OK\")]"
+    },
+    "Order Button": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='order']"
+    },
+    "Orderanother Button": {
+        "screenshot": ".images\\orderanother-button-screenshot.png",
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "id",
+        "type": "browser",
+        "value": "order-another"
+    },
+    "Preview Button": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='preview']"
+    },
+    "Receipt DIV": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//div[@id='receipt']"
+    },
+    "Robot Preview Image": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//div[@id='robot-preview-image']"
+    },
+    "Shipping Address Input": {
+        "screenshot": null,
+        "source": "https://robotsparebinindustries.com/#/robot-order",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//input[@id='address']"
+    }
+}
